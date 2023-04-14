@@ -1,0 +1,21 @@
+
+g	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(µ´Õİÿÿÿÿÿ8¹¶İïô0
+r	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÒéÏúÿÿÿÿ8ÕòÎïô0
+y
+java:S1488)"\Immediately return this expression instead of assigning it to the temporary variable "desc".(¸»¾é8ÖòÎïô0
+~
+java:S14880"aImmediately return this expression instead of assigning it to the temporary variable "expResult".(î¡‹Å8ÖòÎïô0
+
+java:S1488<"]Immediately return this expression instead of assigning it to the temporary variable "title".(Àö„ÿÿÿÿÿ8ÖòÎïô0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²Æ„Î
+o
+java:S2095G"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(êÒéÏúÿÿÿÿ8§Ñïô0
+u
+java:S1450"XRemove the "tableInfo" field and declare it as a local variable in the relevant methods.(Ñßèá8äòÎïô0
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ˆ±©úøÿÿÿÿ8åòÎïô0
+
+java:S11305"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(µ´Õİÿÿÿÿÿ8Ì¶İïô0
+X	java:S125H"<This block of commented-out lines of code should be removed.(¤®é°8ëòÎïô0
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(¯ òó8ìòÎïô0
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(™¡–ùúÿÿÿÿ8ìòÎïô0
