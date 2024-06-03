@@ -37,32 +37,11 @@ import java.net.MalformedURLException;
 
 public class BaseTest {
 
-    //protected ExtentTest test;
+
     private String testName;
-    //protected PageManager pageManager;
     protected static WebDriver driver;
     public String browserFlag;
-    public String onGrid;
-    public String host;
-    public String port;
-    public static int ieCountCurrent = 0;
-    public static int firefoxCountCurrent = 0;
-    public static int chromeCountCurrent = 0;
-    public static int safariCountCurrent = 0;
-    public static String browserName = "Chrome";
     protected Log log = LogFactory.getLog(this.getClass());
-
-    public String outputExcelFileName;
-
-    public String actualResult;
-    public HashMap<String, String> expected;
-    //public CustomAssertion customAssertion;
-    private final String description = " This is a simple test from complex factory";
-
-    static Properties PROPERTIES_RESOURCES = SystemUtil.loadPropertiesResources("/testdata_common.properties");
-    //TestListener testListener = new TestListener();
-
-    public static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<WebDriver>();
 
     public String projectPath = System.getProperty("user.dir");
     String os = System.getProperty("os.name");
@@ -89,10 +68,6 @@ public class BaseTest {
         String className = classes[classes.length - 1];
         driver.manage().window().maximize();
         testName = browserFlag + "-" + className + "-" + caller.getName();
-        //test = ComplexReportFactory.getTest(testName, className, description);
-        //test.log(Status.PASS, "Test Started!");
-        //customAssertion = new CustomAssertion(driver, test);
-        //pageManager = new PageManager(driver, browserFlag, test);
         driver.get(url);
     }
 
@@ -108,13 +83,11 @@ public class BaseTest {
 
     @AfterSuite(alwaysRun = true)
     public void afterSuite() {
-        //ComplexReportFactory.closeReport();
     }
 
 
     @BeforeSuite(alwaysRun = true)
     public void suiteSetup() throws Exception {
-        //outputExcelFileName = ExcelUtil.setupExcelOutput();
 
     }
 
@@ -171,25 +144,12 @@ public class BaseTest {
         return this.browserFlag;
     }
 
-
-
-
-
-    private void initParams(String browserFlagO) {
-        browserFlag = browserFlagO;
-        actualResult = null;
-        expected = new HashMap<String, String>();
-        log.info("browserFlag=" + browserFlag);
-    }
-
     private void setUpChrome() throws Exception {
         System.setProperty("webdriver.chrome.driver", projectPath + "\\lib\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
         driver = new ChromeDriver(options);
     }
-
-
 
     public void getChromeVersion (){
         Capabilities cap = ((ChromeDriver) driver).getCapabilities();
