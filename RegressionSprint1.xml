@@ -4,9 +4,12 @@
        configfailurepolicy="continue">
 
     <test name = "REGRESSION TEST SPRINT 1" >
-        <parameter name="envTest" value="UAT"/>
+        <parameter name="envTest" value="DEV"/>
         <classes>
+            <class name="sprint1.testcase.TC1_OpenBrowser"/>
             <class name="sprint1.testcase.TC2_Login"/>
+            <class name="sprint1.testcase.TC4_Login_Negative"/>
+            <class name="sprint1.testcase.TC5_Buy_BackPack"/>
         </classes>
     </test>
 </suite>
