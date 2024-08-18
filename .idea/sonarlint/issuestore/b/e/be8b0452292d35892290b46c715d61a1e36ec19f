@@ -1,0 +1,26 @@
+
+b	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(Ή‘†¥8Π‚ωστ0
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(κÒιΟϊÿÿÿÿ8Π‚ωστ0
+v
+java:S1104"TMake resource a static final constant or non-public and provide accessors if needed.(ΐΣ™Εύÿÿÿÿ8Ρ‚ωστ0
+P
+java:S1444".Make this "public static resource" field final(ΐΣ™Εύÿÿÿÿ8Ρ‚ωστ0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²Ζ„Ξ
+o
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(κÒιΟϊÿÿÿÿ8Π¬ÿστ0
+?
+java:S2386"Make this member "protected".(ΐΣ™Εύÿÿÿÿ8²Φώστ0
+\
+java:S1118
+":Add a private constructor to hide the implicit public one.(οΊΠϋÿÿÿÿÿ8Ω‚ωστ0
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ΐΣ™Εύÿÿÿÿ8Ϋ‚ωστ0
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(―ζ‘¤8Ϋ‚ωστ0
+]	java:S125"<This block of commented-out lines of code should be removed.(Μΰ•Πωÿÿÿÿ8ά‚ωστ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(΅Ϋ½¨8ά‚ωστ0
+T
+java:S1135"2Complete the task associated to this TODO comment.(ΥΜ®ώÿÿÿÿ8ά‚ωστ0
+]	java:S1253"<This block of commented-out lines of code should be removed.(Ϊψ¨Ϋώÿÿÿÿ8ώΦττ0
+f
+java:S1128"IRemove this unused import 'org.openqa.selenium.support.ui.WebDriverWait'.(¥χσ8ώΦττ0

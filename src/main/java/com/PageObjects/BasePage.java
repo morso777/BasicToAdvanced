@@ -1,6 +1,6 @@
 package com.PageObjects;
 
-import com.paulhammant.ngwebdriver.NgWebDriver;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.*;
@@ -20,18 +20,11 @@ import java.util.logging.Level;
 
 public class BasePage {
 
-    public String priceF;
-    public String hourF;
-    public String yearF;
-    public String year;
-    public String location;
-    public int priceValue;
-    public int selectedValue;
-
+    public String X;
 
     public String projectPath = System.getProperty("user.dir");
     protected WebDriver driver;
-    public NgWebDriver ngWebDriver;
+
     Actions actions;
 
     public Wait<WebDriver> fluentWait;
@@ -71,9 +64,7 @@ public class BasePage {
 
 
 
-
     public void sleepByNSeconds(int secs) {
-
         try {
             Thread.sleep(secs * 1000);
         } catch (InterruptedException e) {
@@ -152,8 +143,6 @@ public class BasePage {
         jse = (JavascriptExecutor)driver;
         jse.executeScript("arguments[0].click();", element);
     }
-
-
 
 
 
