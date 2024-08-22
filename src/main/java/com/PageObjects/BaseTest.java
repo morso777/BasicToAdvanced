@@ -9,7 +9,6 @@ import org.testng.annotations.*;
 import org.testng.annotations.Optional;
 
 import com.PageObjects.TestData;
-import io.restassured.internal.http.Status;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.Capabilities;
