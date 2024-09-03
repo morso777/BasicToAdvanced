@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="264fbc39-56c6-4eb8-924c-f8f502ef40e1" name="Changes" comment="" />
+    <list default="true" id="264fbc39-56c6-4eb8-924c-f8f502ef40e1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +54,7 @@
     &quot;TestNG.TC4_Login_Negative.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TC5_Buy_BackPack.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TC5_Buy_BackPack_Class.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;sauceLab__tc&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/vohir/Documents/codeFromGit/BasicToAdvanced/lib&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
