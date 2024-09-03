@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="264fbc39-56c6-4eb8-924c-f8f502ef40e1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2gkcSgNdEi5WraUahNxqOU6FIuQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.BasicToAdvanced [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.BasicToAdvanced [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.BasicToAdvanced [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.TC1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC1_OpenBrowser (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC1_OpenBrowser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC2_Login.TC2_Login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC2_Login.TC2_Login_Constants (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC2_Login.TC2_Login_Constants.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC2_Login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC2_Login_Class.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC4_Login_Negative (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC4_Login_Negative.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC5_Buy_BackPack.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC5_Buy_BackPack_Class.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sauceLab__tc&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vohir/Documents/codeFromGit/BasicToAdvanced/lib&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vohir\Documents\codeFromGit\BasicToAdvanced\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TC2_Login_Class">
+    <configuration name="TC1_OpenBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicToAdvanced" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sprint1.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="sprint1.testcase" />
+      <option name="MAIN_CLASS_NAME" value="sprint1.testcase.TC1_OpenBrowser" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -DenvTest=DEV" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC2_Login_Class" type="TestNG" temporary="true">
+      <module name="BasicToAdvanced" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sprint1.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="sprint1.testcase" />
+      <option name="MAIN_CLASS_NAME" value="sprint1.testcase.TC2_Login" />
+      <option name="METHOD_NAME" value="TC2_Login" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -DenvTest=DEV" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC2_Login.TC2_Login_Constants" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicToAdvanced" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sprint1.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="sprint1.testcase" />
+      <option name="MAIN_CLASS_NAME" value="sprint1.testcase.TC2_Login" />
+      <option name="METHOD_NAME" value="TC2_Login_Constants" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -DenvTest=DEV" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC5_Buy_BackPack_Class" type="TestNG" temporary="true">
+      <module name="BasicToAdvanced" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sprint1.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="sprint1.testcase" />
+      <option name="MAIN_CLASS_NAME" value="sprint1.testcase.TC5_Buy_BackPack" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -DenvTest=DEV" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TC1_OpenBrowser" />
+      <item itemvalue="TestNG.TC5_Buy_BackPack_Class" />
+      <item itemvalue="TestNG.TC2_Login.TC2_Login_Constants" />
+      <item itemvalue="TestNG.TC2_Login_Class" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC2_Login_Class" />
+        <item itemvalue="TestNG.TC1_OpenBrowser" />
+        <item itemvalue="TestNG.TC5_Buy_BackPack_Class" />
+        <item itemvalue="TestNG.TC2_Login.TC2_Login_Constants" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="264fbc39-56c6-4eb8-924c-f8f502ef40e1" name="Changes" comment="" />
+      <created>1716245017675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716245017675</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

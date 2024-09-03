@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Search_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Search Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Search_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\vohir\Documents\codeFromGit\BasicToAdvanced\RegressionSprint1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Search_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Search_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Search_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Search_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Search_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Search_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Search_Test_Suite" class="hide-methods passed suite-Search_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Search_Test_Suite -->
+                      <a href="#" panel-name="suite-Search_Test_Suite" class="show-methods passed suite-Search_Test_Suite"> (show)</a> <!-- show-methods passed suite-Search_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Search_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Search_Test_Suite" title="sprint1.testcase.TC1_OpenBrowser" class="method navigator-link" hash-for-method="OpenBrowser">OpenBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Search_Test_Suite" title="sprint1.testcase.TC2_Login" class="method navigator-link" hash-for-method="TC2_Login">TC2_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Search_Test_Suite" title="sprint1.testcase.TC2_Login" class="method navigator-link" hash-for-method="TC2_Login_Constants">TC2_Login_Constants</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Search_Test_Suite" title="sprint1.testcase.TC2_Login" class="method navigator-link" hash-for-method="TC2_Login_UserName">TC2_Login_UserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Search_Test_Suite" title="sprint1.testcase.TC4_Login_Negative" class="method navigator-link" hash-for-method="TC4_Login">TC4_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Search_Test_Suite" title="sprint1.testcase.TC5_Buy_BackPack" class="method navigator-link" hash-for-method="TC5_Buy_BackPack">TC5_Buy_BackPack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Search_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Search_Test_Suite" class="panel Search_Test_Suite">
+          <div class="suite-Search_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint1.testcase.TC2_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2_Login">
+                  </a> <!-- TC2_Login -->
+                  <span class="method-name">TC2_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2_Login_Constants">
+                  </a> <!-- TC2_Login_Constants -->
+                  <span class="method-name">TC2_Login_Constants</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2_Login_UserName">
+                  </a> <!-- TC2_Login_UserName -->
+                  <span class="method-name">TC2_Login_UserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Search_Test_Suite-class-passed -->
+          <div class="suite-Search_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint1.testcase.TC1_OpenBrowser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenBrowser">
+                  </a> <!-- OpenBrowser -->
+                  <span class="method-name">OpenBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Search_Test_Suite-class-passed -->
+          <div class="suite-Search_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint1.testcase.TC5_Buy_BackPack</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC5_Buy_BackPack">
+                  </a> <!-- TC5_Buy_BackPack -->
+                  <span class="method-name">TC5_Buy_BackPack</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Search_Test_Suite-class-passed -->
+          <div class="suite-Search_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sprint1.testcase.TC4_Login_Negative</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4_Login">
+                  </a> <!-- TC4_Login -->
+                  <span class="method-name">TC4_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Search_Test_Suite-class-passed -->
+        </div> <!-- panel Search_Test_Suite -->
+        <div panel-name="test-xml-Search_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vohir\Documents\codeFromGit\BasicToAdvanced\RegressionSprint1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite configfailurepolicy=&quot;continue&quot; thread-count=&quot;1&quot; name=&quot;Search Test Suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;REGRESSION TEST SPRINT 1&quot;&gt;
+    &lt;parameter name=&quot;envTest&quot; value=&quot;DEV&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sprint1.testcase.TC1_OpenBrowser&quot;/&gt;
+      &lt;class name=&quot;sprint1.testcase.TC2_Login&quot;/&gt;
+      &lt;class name=&quot;sprint1.testcase.TC4_Login_Negative&quot;/&gt;
+      &lt;class name=&quot;sprint1.testcase.TC5_Buy_BackPack&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- REGRESSION TEST SPRINT 1 --&gt;
+&lt;/suite&gt; &lt;!-- Search Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Search_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Search Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">REGRESSION TEST SPRINT 1 (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Search_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Search Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Search_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Search Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Search_Test_Suite');
+function tableData_Search_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC5_Buy_BackPack')
+data.setCell(0, 2, 'sprint1.testcase.TC5_Buy_BackPack')
+data.setCell(0, 3, 865);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC2_Login_Constants')
+data.setCell(1, 2, 'sprint1.testcase.TC2_Login')
+data.setCell(1, 3, 289);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC2_Login_UserName')
+data.setCell(2, 2, 'sprint1.testcase.TC2_Login')
+data.setCell(2, 3, 230);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC2_Login')
+data.setCell(3, 2, 'sprint1.testcase.TC2_Login')
+data.setCell(3, 3, 217);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC4_Login')
+data.setCell(4, 2, 'sprint1.testcase.TC4_Login_Negative')
+data.setCell(4, 3, 190);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'OpenBrowser')
+data.setCell(5, 2, 'sprint1.testcase.TC1_OpenBrowser')
+data.setCell(5, 3, 1);
+window.suiteTableData['Search_Test_Suite']= { tableData: data, tableDiv: 'times-div-Search_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Search_Test_Suite">
+              </div> <!-- times-div-Search_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Search_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Search Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Search_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sprint1.testcase.TC1_OpenBrowser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteSetup</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sprint1.testcase.TC5_Buy_BackPack</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteSetup</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sprint1.testcase.TC4_Login_Negative</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteSetup</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Search_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint1.testcase.TC2_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint1.testcase.TC1_OpenBrowser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint1.testcase.TC1_OpenBrowser.OpenBrowser(), DEV)</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">2456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void sprint1.testcase.TC1_OpenBrowser.OpenBrowser())</span>
+                <span class="method-start">2458 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2584 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint1.testcase.TC2_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint1.testcase.TC2_Login.TC2_Login(), DEV)</span>
+                <span class="method-start">2585 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">2585 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">4452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC2_Login</span>
+                <span class="method-start">4457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void sprint1.testcase.TC2_Login.TC2_Login())</span>
+                <span class="method-start">4674 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint1.testcase.TC2_Login.TC2_Login_UserName(), DEV)</span>
+                <span class="method-start">4814 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6317 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC2_Login_UserName</span>
+                <span class="method-start">6318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void sprint1.testcase.TC2_Login.TC2_Login_UserName())</span>
+                <span class="method-start">6548 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint1.testcase.TC2_Login.TC2_Login_Constants(), DEV)</span>
+                <span class="method-start">6680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC2_Login_Constants</span>
+                <span class="method-start">8305 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8305 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void sprint1.testcase.TC2_Login.TC2_Login_Constants())</span>
+                <span class="method-start">8595 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint1.testcase.TC4_Login_Negative</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">8722 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint1.testcase.TC2_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8722 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint1.testcase.TC4_Login_Negative</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint1.testcase.TC4_Login_Negative.TC4_Login(), DEV)</span>
+                <span class="method-start">8723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">11715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC4_Login</span>
+                <span class="method-start">11716 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void sprint1.testcase.TC4_Login_Negative.TC4_Login())</span>
+                <span class="method-start">11906 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12052 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint1.testcase.TC5_Buy_BackPack</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sprint1.testcase.TC5_Buy_BackPack.TC5_Buy_BackPack(), DEV)</span>
+                <span class="method-start">12053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">12053 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">19769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC5_Buy_BackPack</span>
+                <span class="method-start">19772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void sprint1.testcase.TC5_Buy_BackPack.TC5_Buy_BackPack())</span>
+                <span class="method-start">20637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20791 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sprint1.testcase.TC2_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">20806 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
